@@ -1,0 +1,21 @@
+header{
+    width: 100%;
+}
+
+.mobile_header{
+}
+
+.en_tete{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    border-bottom: 1px solid #9f9f9f;
+    img{
+        margin: 1rem 0;
+    }
+}
+
+
+.desk_header{
+    display: none;
+}
