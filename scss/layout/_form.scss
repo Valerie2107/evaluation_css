@@ -10,8 +10,9 @@
         padding: 1rem 1rem;
         background-color: #f6f6f6;
         border: none;
-        &:focus-visible{
-            // border: none;
+        &:focus{
+            outline:2px solid #80bdff;
+            // box-shadow: 0 0 0 .2rem rgba(0,123,255,.25); plus zoli sans
         }
     }
     a, address{
