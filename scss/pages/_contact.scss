@@ -1,14 +1,10 @@
 .grid_contact{
     display: grid;
-
     margin-bottom: 3rem;
-
 }
-
-
-
 .map{
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 
 
@@ -18,13 +14,13 @@
     .grid_contact{
         width: 100%;
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         gap: 2rem;
     }
+    .large{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
 }
-// @media screen and (min-width: 1000px){
-//     .grid_contact{
-//         display: grid;
-//         grid-template-columns: repeat(6,1fr);
-//     }
-// }

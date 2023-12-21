@@ -2,10 +2,10 @@ footer{
     width: 100%;
     background: url(../../img/footer.jpg) center/cover;
     color: #fff;
-    &::before{
-        content: " ";
-        background-color: rgba(0, 0, 0, 0.7);
-    }
+    // &::before{
+    //     content: " ";
+    //     background-color: rgba(0, 0, 0, 0.7);
+    // }
     a{
         color: #9f9f9f;
     }

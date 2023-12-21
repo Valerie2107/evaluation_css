@@ -6,10 +6,13 @@
         display: block;
         width: 100%;
         margin: 1rem 0;
-        font-size: 16.5px;
+        font-size: 14.5px;
         padding: 1rem 1rem;
         background-color: #f6f6f6;
         border: none;
+        &:focus-visible{
+            // border: none;
+        }
     }
     a, address{
         color: #9f9f9f;
@@ -23,5 +26,11 @@
         text-transform: uppercase;
         padding: 2rem 0 1rem 0;
         border-bottom: 2px solid #9f9f9f;
+    }
+    .envoi{
+        background-color: #fff;
+        border: 2px solid #3a3a3a;
+        color: #3a3a3a;
+        font-weight: bold;
     }
 }
