@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Khula', sans-serif;
+    color: #3a3a3a;
 }
 
 .wrapper{
@@ -10,8 +11,25 @@ body{
     padding: 2rem 1rem;
 }
 
-
-
 a{
     text-decoration: none;
+}
+
+
+// pages contact et about
+.banniere{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efefef;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
+    h3{
+        font-size: 28px;
+        font-weight: normal;
+    }
+    .date{
+        font-size: 18px;
+        font-style: italic;
+    }
 }

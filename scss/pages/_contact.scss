@@ -1,0 +1,30 @@
+.grid_contact{
+    display: grid;
+
+    margin-bottom: 3rem;
+
+}
+
+
+
+.map{
+    display: inline-block;
+}
+
+
+
+// MEDIA QUERIES
+@media screen and (min-width: 750px){
+    .grid_contact{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 2rem;
+    }
+}
+// @media screen and (min-width: 1000px){
+//     .grid_contact{
+//         display: grid;
+//         grid-template-columns: repeat(6,1fr);
+//     }
+// }
