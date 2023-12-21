@@ -1,19 +1,36 @@
 header{
     width: 100%;
 }
-
-.mobile_header{
-}
-
 .en_tete{
     display: flex;
     flex-direction: column;
     margin: 2rem 0;
     border-bottom: 1px solid #9f9f9f;
-    img{
-        margin: 1rem 0;
+    margin: 1rem 0;
+    
+}
+
+
+.mobile_header{
+
+}
+.layer{
+    height: 0.2rem;
+    width: 1.5rem;
+    color: #fff;
+    background-color: #fff;
+    &:nth-of-type(2){
+        margin: 0.3rem 0;
     }
 }
+.burger_menu span{
+    font-size: 15px;
+}
+
+
+
+
+
 
 
 .desk_header{
