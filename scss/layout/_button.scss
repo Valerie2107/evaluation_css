@@ -1,15 +1,25 @@
+.btn, .read_me{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
 .btn{
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Roboto', sans-serif;
     padding: 0.75rem 0.5rem;
-    text-transform: uppercase;
-    color: #fff;
     width: 120px;
 }
 
 .read_me{
     background-color: #ff0303;
+}
+
+.home_main_grid .read_me, .home_aside_grid .read_me, .special_grid .read_me{
+    padding: 0.25rem 0;
+    font-size: 12px;
+    font-weight: bold;
 }
 

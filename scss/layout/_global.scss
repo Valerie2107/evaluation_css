@@ -28,6 +28,10 @@ body{
     }
 }
 
+h2{
+    font-weight: normal;
+}
+
 h3{
     font-size: 1.75rem;
     font-family: 'Open Sans', sans-serif;
@@ -35,7 +39,7 @@ h3{
 }
 p{
     color: #9f9f9f;
-    line-height: 1.5;
+    line-height: 1.8;
 }
 a{
     text-decoration: none;
@@ -66,8 +70,8 @@ a{
         font-size: 28px;
         font-weight: normal;
     }
-    .date{
-        font-size: 18px;
-        font-style: italic;
-    }
+}
+.date{
+    font-size: 18px;
+    font-style: italic;
 }

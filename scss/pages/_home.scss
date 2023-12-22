@@ -1,0 +1,15 @@
+.homepage{
+    margin-top: 8vh;
+}
+
+.politics{
+    [class*="fa-brands"]{
+        margin-right: 5px;
+        color: #d3d3d3;
+        &:hover{
+            color: #ff0303;
+        }
+    }
+}
+
+
