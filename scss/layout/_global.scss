@@ -10,7 +10,7 @@ body{
 .wrapper{
     width: 100%;
     max-width: 1140px;
-    padding: 1rem;
+    padding: 1.25rem;
 }
 @media screen and (min-width: 580px){
     .wrapper{
@@ -28,7 +28,15 @@ body{
     }
 }
 
-
+h3{
+    font-size: 1.75rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+p{
+    color: #9f9f9f;
+    line-height: 1.5;
+}
 a{
     text-decoration: none;
 }

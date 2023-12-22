@@ -1,0 +1,101 @@
+.grid_about_history{
+    display: grid;
+    grid-template-columns: repeat( 2, minmax(450px, 1fr) );
+    gap: 20px;
+}
+/*********************************************************************************/
+.grid_about_people{
+    display: grid;
+    // grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    grid-template-columns: 1fr;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.grid_about_people {
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media (min-width: 992px) {
+.grid_about_people {
+    grid-template-columns: repeat(4, 1fr);
+}
+}
+
+
+.people{
+    display: flex;
+    flex-direction: column;
+    .people__img{
+        overflow:hidden ;
+        max-width: 100%;
+    }
+    &:hover img{
+        transform: scale(1.1);
+    }
+    img{
+        margin-bottom: 1.75rem;
+        transition: 1s all ease-in-out;
+
+    }
+}
+
+.people__name{
+    color: #3a3a3a;
+    line-height: 1.2;
+    font-size: 25px;
+}
+
+.people__function{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    font-size: 20px;
+    font-style: italic;
+    [class*="fa-brands"]{
+        margin-right: 5px;
+    }
+}
+
+
+
+
+
+
+/*********************************************************************************/
+.join_us{
+    position: relative;
+    background: url(../../img/cta.jpg) center/cover ;
+    background-attachment: fixed;
+    padding: 10vh 0;
+    text-align: center;
+    &::before{
+        content: "";
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+    h3{
+        margin: 0;
+        color: #fff;
+    }
+    p{
+        width: 70%;
+        max-width: 800px;
+    }
+    .display__btn{
+        border: 2px solid #fff;
+        white-space: nowrap;
+        width: 200px;
+    }
+}

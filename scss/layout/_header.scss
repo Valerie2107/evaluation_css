@@ -15,24 +15,7 @@ header{
         margin: 15px 0;
     }
 }
-@media screen and (min-width: 720px){
-    .en_tete{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        width: 100%;
-        align-items: center;
-        a [alt*="logo"]{
-            display: flex;
-            width: 100%;
-        }
-        a [alt*="pub"]{
-            display: flex;
-            justify-content: flex-end;
-            width: 80%;
-        }
-    }
-}
+
 .layer{
     height: 0.2rem;
     width: 1.5rem;
@@ -51,7 +34,6 @@ header{
         border-radius: 10px;
     }
 }
-
 
 .desk_header{
     display: none;
@@ -81,6 +63,26 @@ header{
 }
 
 
+/**************************************************************************************/
+
+@media screen and (min-width: 720px){
+    .en_tete{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 100%;
+        align-items: center;
+        a [alt*="logo"]{
+            display: flex;
+            width: 100%;
+        }
+        a [alt*="pub"]{
+            display: flex;
+            justify-content: flex-end;
+            width: 80%;
+        }
+    }
+}
 
 @media screen and (min-width: 720px){
     .mobile_header,  .burger_menu{
