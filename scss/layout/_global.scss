@@ -42,6 +42,18 @@ a{
 }
 
 
+.zoom_img{
+    overflow:hidden ;
+    max-width: 100%;
+    &:hover img{
+        transform: scale(1.1);
+    }
+    img{
+        margin-bottom: 1.75rem;
+        transition: 1s all ease-in-out;
+    }
+}
+
 // pages contact et about
 .banniere{
     display: flex;

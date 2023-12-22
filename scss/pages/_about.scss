@@ -25,19 +25,8 @@
 .people{
     display: flex;
     flex-direction: column;
-    .people__img{
-        overflow:hidden ;
-        max-width: 100%;
-    }
-    &:hover img{
-        transform: scale(1.1);
-    }
-    img{
-        margin-bottom: 1.75rem;
-        transition: 1s all ease-in-out;
-
-    }
 }
+
 
 .people__name{
     color: #3a3a3a;
@@ -45,7 +34,7 @@
     font-size: 25px;
 }
 
-.people__function{
+.media{
     display: flex;
     flex-direction: row;
     justify-content:space-between;
