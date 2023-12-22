@@ -1,7 +1,6 @@
 // gris texte = #9f9f9f
 //  rouge = #ff0303
-
-// max-width=1900px
+// max-width=1140px
 
 body{
     font-family: 'Khula', sans-serif;
@@ -10,8 +9,25 @@ body{
 
 .wrapper{
     width: 100%;
-    padding: 2rem 1rem;
+    max-width: 1140px;
+    padding: 1rem;
 }
+@media screen and (min-width: 580px){
+    .wrapper{
+        padding: 1rem 8rem;
+    }
+}
+@media screen and (min-width: 790px){
+    .wrapper{
+        padding: 1rem 3rem;
+    }
+}
+@media screen and (min-width: 1000px){
+    .wrapper{
+        margin: 0 auto;
+    }
+}
+
 
 a{
     text-decoration: none;

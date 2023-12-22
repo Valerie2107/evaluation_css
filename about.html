@@ -6,33 +6,41 @@
     <script src="https://kit.fontawesome.com/58b28b7f27.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/vnd.icon" href="img/favicon.ico">
     <link rel="stylesheet" href="scss/style.min.css">
-    <title>Evaluation CSS - Home</title>
+    <title>Evaluation CSS - About</title>
 </head>
 <body>
 <!-- version mobile -->
-    <header class="mobile_header">
-        <div class="en_tete">
-            <a href="#"><img src="img/logo.png" alt="logo"></a>
-            <a href="#"><img src="img/top-advert.png" alt="pub"></a>
-        </div>
-        <div class="burger_menu">
-            <a href="#" class="btn read_me">
-                <div class="burger">
-                    <div class="layer"></div>
-                    <div class="layer"></div>
-                    <div class="layer"></div>
-                </div>
-                <span>Menu</span>
-            </a>
-        </div>
-    </header>
+    <div class="wrapper">
+        <header class="mobile_header wrapper">
+            <div class="en_tete">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+                <a href="#"><img src="img/top-advert.png" alt="pub"></a>
+            </div>
+        </header>
+        <header class="wrapper">
+            <div class="burger_menu">
+                <a href="#" class="btn read_me">
+                    <div class="burger">
+                        <div class="layer"></div>
+                        <div class="layer"></div>
+                        <div class="layer"></div>
+                    </div>
+                    <span>Menu</span>
+                </a>
+            </div>
+        </header>
+    </div>
 <!-- version desktop -->
     <header class="desk_header">
-        <div class="en_tete">
-            <a href="#"><img src="img/logo.png" alt="logo"></a>
-            <a href="#"><img src="img/top-advert.png" alt="pub"></a>
+        <div class="wrapper">
+            <div class="en_tete">
+                <a href="#"><img src="img/logo.png" alt="logo"></a>
+                <a href="#"><img src="img/top-advert.png" alt="pub"></a>
+            </div>
         </div>
-        <div class="navigation">
+    </header>
+    <div class="navigation">
+        <div class="wrapper">
             <nav>
                 <a href="index.html">Today</a>
                 <a href="#">Politics</a>
@@ -41,17 +49,102 @@
                 <a href="#">Health</a>
                 <a href="about.html">About Us</a>
                 <a href="contact.html">Contact</a>
+                <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
             </nav>
-            <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i></a>
         </div>
-    </header>
+    </div>
+   <!-- fin partie header -------------------------------------------------  -->
 
+<main>
+    <div class="banniere">
+        <h3>About Us</h3>
+        <div class="date">28 November 2017</div>
+    </div>
     <div class="wrapper">
-<!-- background attachement fixed pour le survol special -->
+    <!-- background attachement fixed pour le survol special -->
+        <section>
+            <h3>Sort History</h3>
+            <div class="grid_about_history">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue placerat finibus. Fusce a enim non erat faucibus pellentesque. Ut mattis vel leo sit amet tincidunt. Sed placerat condimentum ante vitae ornare. Nam nibh leo, pharetra vel lacus in, dictum tincidunt magna. Aliquam ut placerat justo. Duis elementum justo in sapien auctor, ut placerat purus sodales. Pellentesque a risus eu elit scelerisque fermentum in sed nisi. Sed maximus vel lectus sit</p>
+                <p>amet rhoncus. Vestibulum ut mattis mi, ac aliquam turpis. Suspendisse potenti. In semper nec urna sed mattis. Vivamus augue tellus, placerat nec lectus a, sodales sollicitudin arcu. enean a porta sem. In a nunc sapien. Aliquam justo augue, ornare eu mauris varius, scelerisque consequat purus. Ut semper ac neque eu cursus. Cras pellentesque quam vel metus bibendum, ac fringilla tellus tempus.</p>
+            </div>
+        </section>
+        <section>
+            <h3>Our Team</h3>
+                <div class="grid_about_people">
+                    <div class="people">
+                        <img src="img/jane.jpg" alt="jane">
+                        <div class="people__name">Jane</div>
+                        <div class="people__function">
+                            <div>Editor</div>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-pinterest" style="color: #d3d3d3;"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" style="color: #d3d3d3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <img src="img/june.jpg" alt="June">
+                        <div class="people__name">June</div>
+                        <div class="people__function">
+                            <div>Editor</div>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-pinterest" style="color: #d3d3d3;"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" style="color: #d3d3d3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <img src="img/marcel.jpg" alt="Marcel">
+                        <div class="people__name">Marcel</div>
+                        <div class="people__function">
+                            <div>Editor</div>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-pinterest" style="color: #d3d3d3;"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" style="color: #d3d3d3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="people">
+                        <img src="img/raymonde.jpg" alt="Raymonde">
+                        <div class="people__name">Raymonde</div>
+                        <div class="people__function">
+                            <div>Editor</div>
+                            <div>
+                                <a href="#"><i class="fa-brands fa-pinterest" style="color: #d3d3d3;"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin-in" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f" style="color: #d3d3d3"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter" style="color: #d3d3d3"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="join_us">
+            <h3>Join Our Team</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor, elit vel pellentesque faucibus, massa ligula rutrum erat, id aliquam orci urna in ante.</p>
+            <div><a href="#" class="btn">Contact Us</a></div>
+        </section>
+
 
     </div>
     <!-- fin wrapper -->
-    
+
+
+</main>
+
+
+
+
+
+
+
     <footer>
         <div class="grid_footer">
             <nav class="nav_footer">
